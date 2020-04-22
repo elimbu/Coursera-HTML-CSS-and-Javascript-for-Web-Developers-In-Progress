@@ -1,0 +1,113 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color:  #6F4E37;
+}
+
+/*HEADER NAV*/
+
+#header-nav {
+    background-color: papayawhip;
+
+}
+
+.navbar-expand-lg .container-fluid {
+    flex-wrap: wrap;
+}
+
+#logo-img {
+    background: url(../img/logo.png);
+    width: 171px;
+    height: 150px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Pacifico', cursive;
+    color: rosybrown;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .5em;
+    margin-top: 15px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#nav-list a {
+    text-align: center;
+}
+
+.nav-item {
+    font-size: larger;
+    padding: 0px 10px;
+}
+
+.bi {
+    margin: 0px 15px 10px 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.dropdown .bi {
+    margin: 0px 45px 10px 45px;
+}
+
+.
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+/***** LARGE DEVICES *****/
+@media (min-width: 1200px) {
+
+}
+
+/***** MEDIUM DEVICES *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/***** SMALL DEVICES *****/
+@media (min-width: 768px) and (max-width: 991px) {
+    #km  {
+        margin-right: 15px;
+        margin-left: 81px;
+    }
+    .dropdown .bi {
+        margin: 0;
+    }
+    #x-sm-con {
+        text-align: right !important;
+        font-size: x-small;
+    }
+    
+}
+
+/***** EXTRA SMALL DEVICES *****/
+@media (max-width: 767px) {
+
+}
