@@ -1,113 +1,341 @@
 body {
-    font-family: 'Manrope', sans-serif;
-    background-color:  #6F4E37;
+  font-family: "Manrope", sans-serif;
+  background-color: #6f4e37;
 }
 
 /*HEADER NAV*/
 
 #header-nav {
-    background-color: papayawhip;
-
+  background-color: papayawhip;
 }
 
 .navbar-expand-lg .container-fluid {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #logo-img {
-    background: url(../img/logo.png);
-    width: 171px;
-    height: 150px;
+  background: url(../img/logo.png);
+  width: 171px;
+  height: 150px;
 }
 
 .navbar-brand h1 {
-    font-family: 'Pacifico', cursive;
-    color: rosybrown;
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 35px;
-    margin-bottom: 0;
-    margin-left: 10px;
-    line-height: .75;
+  font-family: "Pacifico", cursive;
+  color: rosybrown;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 35px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  line-height: 0.75;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
 }
 
 .navbar-brand p {
-    color: #000;
-    text-transform: uppercase;
-    font-size: .5em;
-    margin-top: 15px;
-    margin-left: 10px;
-    vertical-align: middle;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  margin-top: 15px;
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 .navbar-collapse {
-    flex-grow: 0;
+  flex-grow: 0;
 }
 
 #nav-list a {
-    text-align: center;
+  text-align: center;
 }
 
 .nav-item {
-    font-size: larger;
-    padding: 0px 10px;
+  font-size: larger;
+  padding: 0px 10px;
 }
 
 .bi {
-    margin: 0px 15px 10px 15px;
-    width: 20px;
-    height: 20px;
+  margin: 0px 15px 10px 15px;
+  width: 20px;
+  height: 20px;
 }
 
 .dropdown .bi {
-    margin: 0px 45px 10px 45px;
+  margin: 0px 45px 10px 45px;
 }
 
-.
+.quote {
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+/* END OF HEADER NAV*/
+
+/* HOME SCREEN */
+
+.jumbotron {
+  box-shadow: 0 0 50px #110d0a;
+  border: 2px solid papayawhip;
+  margin-top: 10px;
+}
+
+.row {
+  margin: auto;
+}
+
+#menu-tile,
+#specials-tile,
+#location-tile {
+  height: 250px;
+  width: 100%;
+  margin: 15px;
+  position: relative;
+  border: 2px solid papayawhip;
+}
+
+#menu-tile {
+  background: url(../img/menu-tile.jpg) no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url(../img/special-tile.jpg) no-repeat;
+  background-position: center;
+}
+#menu-tile span,
+#specials-tile span,
+#location-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+#menu-tile:hover,
+#specials-tile:hover,
+#location-tile:hover {
+  box-shadow: 0px 1px 10px 1px #000;
+}
+
+/* END OF HOME SCREEN */
+
+/* FOOTER */
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  color: #fff;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours,
+#address {
+  line-height: 2;
+}
+
+#hours > span,
+#address > span {
+  font-size: 1.3em;
+}
+
+#address p {
+  color: papayawhip;
+  font-size: 0.8em;
+  line-height: 1.8em;
+}
+
+#testimonials p {
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* END OF FOOTER*/ 
+
+/* MENU CATEGORIES */
+
+.container h2 {
+  margin: 20px 0;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu-hr-top, .menu-hr-bottom {
+    width: 90%;
+    height: 2px;
+    color: papayawhip;
+    background-color: papayawhip;
+    border: none;
+}
+
+.category-tile {
+  position: relative;
+  border: 2px solid papayawhip;
+  overflow: hidden;
+  width: 371px;
+  height: 480px;
+  margin: 30px auto 30px;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.category-tile:hover {
+  box-shadow: 0 2px 10px 2px #cccccc;
+}
+
+#menu-category-tile {
+  margin-bottom: 50px;
+}
 
 
-
-
-
-
-
-
-
-
-/*MEDIA QUERIES*/
+/******** MEDIA QUERIES *******/
 
 /***** LARGE DEVICES *****/
+
 @media (min-width: 1200px) {
 
+  /* HOME SCREEN */
+
+  .jumbotron {
+    background: url("../img/jumbotron-lg.jpg") no-repeat;
+    height: 675px;
+  }
 }
 
 /***** MEDIUM DEVICES *****/
+
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  /* HOME SCREEN */
+
+  .jumbotron {
+    background: url("../img/jumbotron-md.jpg") no-repeat;
+    height: 558px;
+  }
 }
 
 /***** SMALL DEVICES *****/
+
 @media (min-width: 768px) and (max-width: 991px) {
-    #km  {
-        margin-right: 15px;
-        margin-left: 81px;
-    }
-    .dropdown .bi {
-        margin: 0;
-    }
-    #x-sm-con {
-        text-align: right !important;
-        font-size: x-small;
-    }
-    
+
+  /* HEADER NAV */
+
+  #km {
+    margin-right: 15px;
+    margin-left: 81px;
+  }
+  .dropdown .bi {
+    margin: 0;
+  }
+  #x-sm-con,
+  .quote {
+    text-align: right !important;
+    font-size: x-small;
+  }
+
+  /* HOME SCREEN */
+
+  .jumbotron {
+    background: url("../img/jumbotron-sm.jpg") no-repeat;
+    height: 432px;
+  }
 }
 
 /***** EXTRA SMALL DEVICES *****/
-@media (max-width: 767px) {
 
+@media (min-width: 575px) and (max-width: 767px) {
+  
+  /* HEADER NAV */
+
+  #km {
+    margin-right: 15px;
+    margin-left: 81px;
+  }
+  .dropdown .bi {
+    margin: 0;
+  }
+  #x-sm-con,
+  .quote {
+    text-align: right !important;
+    font-size: x-small;
+  }
+
+  /* HOME SCREEN */
+
+  .jumbotron {
+    padding: 0;
+  }
+}
+
+/***** SUPER EXTRA SMALL DEVICES *****/
+
+@media (max-width: 574px) {
+
+  /* HEADER NAV */
+
+  #km {
+    margin-right: 15px;
+    margin-left: 81px;
+  }
+
+  .dropdown .bi {
+    margin: 0;
+  }
+  #x-sm-con,
+  .quote {
+    text-align: right !important;
+    font-size: x-small;
+  }
+
+  /* HOME SCREEN */
+
+  .jumbotron {
+    display: block;
+  }
+
+  /* FOOTER */
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+  }
+
+  .panel-footer section hr {
+    width: 50%;
+    height: 1px;
+    color: papayawhip;
+    background-color: papayawhip;
+    border: none;
+  }
 }
