@@ -177,11 +177,19 @@ body {
 }
 
 .menu-hr-top, .menu-hr-bottom {
-    width: 90%;
-    height: 2px;
-    color: papayawhip;
-    background-color: papayawhip;
-    border: none;
+  width: 90%;
+  height: 2px;
+  color: papayawhip;
+  background-color: papayawhip;
+  order: none;
+}
+
+.menu-hr {
+  width: 75%;
+  height: 2px;
+  color: papayawhip;
+  background-color: papayawhip;
+  order: none;
 }
 
 .category-tile {
@@ -266,6 +274,12 @@ body {
     background: url("../img/jumbotron-sm.jpg") no-repeat;
     height: 432px;
   }
+
+  /* MENU CATEGORIES */
+
+  .category-tile {
+    
+  }
 }
 
 /***** EXTRA SMALL DEVICES *****/
@@ -338,4 +352,5 @@ body {
     background-color: papayawhip;
     border: none;
   }
+
 }
