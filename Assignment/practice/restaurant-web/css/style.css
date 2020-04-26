@@ -83,16 +83,14 @@ body {
   margin-top: 10px;
 }
 
-.row {
-  margin: auto;
-}
+
 
 #menu-tile,
 #specials-tile,
 #location-tile {
   height: 250px;
-  width: 100%;
-  margin: 15px;
+  width: auto;
+  margin: 15px 0;
   position: relative;
   border: 2px solid papayawhip;
 }
@@ -192,13 +190,19 @@ body {
   order: none;
 }
 
+.tile-ends {
+  width: 371px;
+}
+
+.col-lg-6 {
+  width: 371px;
+}
 .category-tile {
-  position: relative;
   border: 2px solid papayawhip;
   overflow: hidden;
   width: 371px;
-  height: 480px;
-  margin: 30px auto 30px;
+  margin: 0 auto 15px;
+  position: relative;
 }
 
 .category-tile span {
@@ -235,6 +239,7 @@ body {
     background: url("../img/jumbotron-lg.jpg") no-repeat;
     height: 675px;
   }
+
 }
 
 /***** MEDIUM DEVICES *****/
@@ -277,9 +282,7 @@ body {
 
   /* MENU CATEGORIES */
 
-  .category-tile {
-    
-  }
+
 }
 
 /***** EXTRA SMALL DEVICES *****/
@@ -332,6 +335,12 @@ body {
 
   .jumbotron {
     display: block;
+    padding: 0;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 375px;
+    margin: 0 auto 15px;
   }
 
   /* FOOTER */
