@@ -190,13 +190,6 @@ body {
   order: none;
 }
 
-.tile-ends {
-  width: 371px;
-}
-
-.col-lg-6 {
-  width: 371px;
-}
 .category-tile {
   border: 2px solid papayawhip;
   overflow: hidden;
@@ -239,7 +232,6 @@ body {
     background: url("../img/jumbotron-lg.jpg") no-repeat;
     height: 675px;
   }
-
 }
 
 /***** MEDIUM DEVICES *****/
@@ -262,7 +254,7 @@ body {
 
   #km {
     margin-right: 15px;
-    margin-left: 81px;
+    margin-left: 84px;
   }
   .dropdown .bi {
     margin: 0;
@@ -293,7 +285,7 @@ body {
 
   #km {
     margin-right: 15px;
-    margin-left: 81px;
+    margin-left: 84px;
   }
   .dropdown .bi {
     margin: 0;
@@ -319,7 +311,7 @@ body {
 
   #km {
     margin-right: 15px;
-    margin-left: 81px;
+    margin-left: 84px;
   }
 
   .dropdown .bi {
